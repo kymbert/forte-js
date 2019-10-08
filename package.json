@@ -1,0 +1,20 @@
+{
+  "name": "forte.js",
+  "version": "1.0.0",
+  "description": "Composition helpers based loosely on Alan Forte's \"The Structure of Atonal Music.\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "music"
+  ],
+  "author": "Kyle Imbertson",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  }
+}
