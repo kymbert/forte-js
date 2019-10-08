@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { PitchClassSet } = require ('../../src/models/pitchClassSet');
+const { PitchClassSet } = require ('../../index');
 
 describe('PitchClassSet', function() {
   it('constructor - from interval succession', function() {

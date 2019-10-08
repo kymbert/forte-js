@@ -1,7 +1,7 @@
 {
   "name": "forte.js",
-  "version": "1.0.0",
-  "description": "Composition helpers based loosely on Alan Forte's \"The Structure of Atonal Music.\"",
+  "version": "0.0.1",
+  "description": "Composition helpers based loosely on Alan Forte's 1973 textbook 'The Structure of Atonal Music.'",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -9,12 +9,22 @@
   "scripts": {
     "test": "mocha test/unit/*.spec.js"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/kymbert/forte-js"
+  },
   "keywords": [
-    "music"
+    "music", "music-theory", "music-composition"
   ],
-  "author": "Kyle Imbertson",
-  "license": "ISC",
+  "readme": "Composition helpers based loosely on Alan Forte's 1973 textbook 'The Structure of Atonal Music.'",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/kymbert/forte-js",
+  "author": {
+    "name": "Kyle Imbertson"
+  },
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^6.2.1"
-  }
+  },
+  "_id": "forte-js@0.0.1"
 }

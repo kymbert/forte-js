@@ -1,7 +1,5 @@
-const IntervalSets = require('./pitchSet/intervals');
-const PitchSetGenerator = require('./pitchSet/pitchSetGenerator');
+const { PitchClassSet } = require('./src/models/pitchClassSet');
 
 module.exports = {
-  IntervalSets: IntervalSets,
-  PitchSetGenerator: PitchSetGenerator
+    PitchClassSet: PitchClassSet
 }
